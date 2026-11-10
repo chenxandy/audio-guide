@@ -74,11 +74,12 @@ LANGS.forEach(function(p){
   a.addEventListener("click",function(){try{localStorage.setItem("ystLang",p[0])}catch(e){}});
   nav.appendChild(a);
 });
-if(ep&&!q.has("stay")){setTimeout(function(){location.replace(url(lang,ep))},1200)}
+if(ep&&!q.has("stay")){setTimeout(function(){location.replace(url(lang,ep))},3000)}
 </script>
 <!--
 修訂紀錄
 2026.11.10  v1  初版：依手機語言自動導向中、英、日、韓四個 SoundOn 導覽節目的同一集；其他語言導向英文；可手動切換並記住選擇。修改者：Claude
+2026.11.10  v2  自動跳轉前的停留時間由約 1 秒改為 3 秒，讓遊客有時間改選語言。修改者：Claude
 -->
 </body>
 </html>
