@@ -19,7 +19,8 @@
   nav{display:grid;gap:12px}
   nav a{display:block;padding:15px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:18px}
   nav a.on{border-color:var(--ink)}
-  #hint{font-size:13px;color:var(--sub);margin-top:22px;line-height:1.6}
+  #hint{font-size:13px;color:var(--sub);margin-top:22px;line-height:1.75}
+  #hint span{display:block}
 </style>
 </head>
 <body>
@@ -36,10 +37,10 @@
 var D={"shows":{"zh":"c8a4af65-daec-48c9-8aae-312b86045956","en":"276e2b7f-ebd3-4460-91f6-1c1ffca02512","ja":"d3590152-01d5-48d7-851e-015ae79d7151","ko":"51f35745-4d9d-4d6c-bfa4-b3f9ff07ca15"},"eps":{"zh":{"1":"18c73479-b429-4031-80e8-f7adf983d854","2":"6e85167c-edd6-4077-bf75-0ccbc4772429","3":"b0beaa82-ca2c-471d-9423-679d01787ab6","4":"feabe613-573c-4db9-909e-71a6a90656fe","5":"0117ed16-39ce-42a8-a100-e1996ce25002","6":"72234406-ef2b-4b69-8ea9-860cebce6464","7":"ca166bbb-3b64-45c9-b6c9-697a141d586c","8":"d6f3523a-5e67-47d2-98e3-eec501f5dbe2","9":"430fd5d8-fcb1-490b-9d1d-84042f65e0e8","10":"86f01c2d-60ed-496a-a28b-5a6752e3ac19","11":"8b9b88c1-dedb-458d-9e0a-ef14f45cfb29","12":"2488dfcc-a325-41b1-82cf-4ba3b69bed4f","13":"488f4c2a-7b12-46ca-8bfc-fb748eb39089","14":"2d21fd04-19fd-4b20-8e24-735677dc0187","15":"b1577fb6-221d-4bd2-aba4-4a5ed34d330a","16":"810978a4-be61-4a10-a428-4f2b4407e960","17":"3df66015-2a89-4905-b3ab-a43f1266e5b2","18":"0669fa09-5deb-4e0e-8322-c1132fb1498c"},"en":{"18":"841bb86a-c44e-4839-a0bf-f70c25db7bf5","17":"6630f785-2266-4cad-b42d-40937eec30d1","16":"b5d0e76e-8ddb-4403-adb9-2930ea2ebdd5","15":"66073c93-cffa-46a0-a013-91bd4ca36f18","14":"f5109324-877e-425c-b723-0b8f96ad02af","13":"4190b896-ed25-418e-b49d-b7c10d66feb1","12":"43e76dd5-d3b3-446d-942f-68988a9749ea","11":"5829efff-9953-4f8a-a361-e6c122054627","10":"9980a7b1-ec61-4828-a0b1-0c7f877b65e1","9":"6de844bf-56a2-4ada-94b4-b86b6ab86116","8":"6b27f526-a2c1-4d3b-a0e4-24d3796841ce","7":"5640a223-f198-4eef-9c30-c5d196c3bc6d","6":"a2bb66e8-3075-4257-940c-2dca3450b34f","5":"8c5408e2-18d3-421b-a604-89be54075952","4":"2fca7cc1-8959-4fd7-ad58-d1d88eec661a","3":"f83a1f0d-c3bc-40fe-ba23-f13606f10c5d","2":"e6a0ffe0-3245-42e7-9af8-d56039a224ea","1":"2e0fe694-06ad-4cbe-894e-1a6d367895ad"},"ja":{"18":"204a5749-8fb7-4117-82f5-6e56d7a7b4dd","17":"a68e1bc4-d241-4a3b-878b-8f0dc361adc5","16":"899abaaf-e3db-4693-bc95-c2995e9c10ed","15":"74e5aa8a-dcff-4931-801d-ada687f778aa","14":"d45a76b2-2e66-4831-93ad-01abf3e45a65","13":"a1af81fe-eb73-4044-a043-f0f732e506cd","12":"d2c59862-861d-4942-ace5-f8448e92fcb9","11":"552a0d1c-46bc-47d7-8c8d-fcb3ee3bd3dd","10":"fcc30a4d-af57-42f3-8deb-a2d237cbfaa9","9":"627b6326-3a44-4363-ad68-aa3d317bb370","8":"4971f92d-bacd-4df0-ba95-22f24856106e","7":"67c6ecff-2f85-43d5-9f5c-5e2d1d6c3f95","6":"f6ee6ace-0817-4226-80a9-6cf59e8929f3","5":"c2b21445-702c-4cf5-9eb9-f18e46829db7","4":"55c09dc3-ace1-4086-9a24-993473669791","3":"ed6c4a63-6020-4f91-822f-5a0d5af4a84f","2":"7de44d95-54a8-4001-9cc0-3b50dd08dea8","1":"324ba830-7876-44be-bbb4-66b7f7b45742"},"ko":{"18":"ef8ad864-b64c-4695-975f-bee5ce902896","17":"221a2b39-4c90-4fba-94db-4a0c947fd638","16":"61ab2ceb-d8c2-40b4-9dfc-ee89bb2bb463","15":"3c132167-611a-4378-aced-c4e2c4da38a6","14":"50a5e844-9c51-4221-a4d2-2017a140db43","13":"971d6d39-3967-4831-bdcd-d57aa2543912","12":"bc0f8e53-7662-42d3-a0e7-8c24127446f7","11":"75c7c5ea-f2e5-4bee-8ff8-87b1de045f18","10":"6aedbd37-beed-4b3f-8a44-44452a3a67ec","9":"e8ab5500-88ea-464c-97a6-88f4295ceabf","8":"8746c1c0-ee76-4c1a-8d41-7a09a411bc8e","7":"520f5ec8-de6a-4b33-aa66-46892096e4e4","6":"5441abd6-ce97-4173-808f-a1a5f4e19743","5":"58b60ad5-d2d1-4031-94cc-680b70c0fb75","4":"d23c89ab-ec0f-4eed-a2f4-6e557a06bda1","3":"0ebf7e79-0652-43a4-8b17-510c200e292c","2":"afc90faf-f26f-49c2-9f96-7e9bdd66922b","1":"2785f09f-6d6a-4a66-a6b7-b734c03a7cd3"}}};
 var LANGS=[["zh","中文"],["en","English"],["ja","日本語"],["ko","한국어"]];
 var T={
-  zh:{go:"正在開啟中文導覽",pick:"請選擇語言",ep:"第 {n} 集",hint:"不是你要的語言嗎？點選上方的語言即可切換。"},
-  en:{go:"Opening the English audio guide",pick:"Choose your language",ep:"Episode {n}",hint:"Wrong language? Tap another language above."},
-  ja:{go:"日本語の音声ガイドを開いています",pick:"言語を選んでください",ep:"第{n}話",hint:"言語が違う場合は、上の言語をタップしてください。"},
-  ko:{go:"한국어 오디오 가이드를 여는 중입니다",pick:"언어를 선택해 주세요",ep:"제{n}편",hint:"언어가 다르면 위에서 다른 언어를 눌러 주세요."}
+  zh:{go:"正在開啟中文導覽",pick:"請選擇語言",ep:"第 {n} 集",hint:"不是你要的語言嗎？請點選上方的語言。"},
+  en:{go:"Opening the English audio guide",pick:"Choose your language",ep:"Episode {n}",hint:"Not your language? Tap one above."},
+  ja:{go:"日本語の音声ガイドを開いています",pick:"言語を選んでください",ep:"第{n}話",hint:"言語が違う場合は、上から選んでください。"},
+  ko:{go:"한국어 오디오 가이드를 여는 중입니다",pick:"언어를 선택해 주세요",ep:"제{n}편",hint:"언어가 다르면 위에서 선택해 주세요."}
 };
 function detect(){
   var saved=null;
@@ -63,9 +64,11 @@ if(!(ep&&D.eps.zh[ep]))ep=null;
 var lang=detect();
 var t=T[lang];
 document.documentElement.lang={zh:"zh-Hant",en:"en",ja:"ja",ko:"ko"}[lang];
-document.getElementById("msg").textContent=ep?t.go:t.pick;
+document.getElementById("msg").textContent=ep?t.go:"";
 document.getElementById("ep").textContent=ep?t.ep.replace("{n}",ep):"";
-document.getElementById("hint").textContent=ep?t.hint:"";
+var hintEl=document.getElementById("hint");
+var order=[lang].concat(["zh","en","ja","ko"].filter(function(x){return x!==lang}));
+order.forEach(function(k){var s=document.createElement("span");s.lang={zh:"zh-Hant",en:"en",ja:"ja",ko:"ko"}[k];s.textContent=ep?T[k].hint:T[k].pick;hintEl.appendChild(s);});
 var nav=document.getElementById("langs");
 LANGS.forEach(function(p){
   var a=document.createElement("a");
@@ -80,6 +83,7 @@ if(ep&&!q.has("stay")){setTimeout(function(){location.replace(url(lang,ep))},300
 修訂紀錄
 2026.11.10  v1  初版：依手機語言自動導向中、英、日、韓四個 SoundOn 導覽節目的同一集；其他語言導向英文；可手動切換並記住選擇。修改者：Claude
 2026.11.10  v2  自動跳轉前的停留時間由約 1 秒改為 3 秒，讓遊客有時間改選語言。修改者：Claude
+2026.11.10  v3  按鈕下方的提示改為中、英、日、韓四種語言並列（偵測到的語言排第一），沒有集數時的「請選擇語言」也四語並列。修改者：Claude
 -->
 </body>
 </html>
