@@ -42,6 +42,12 @@
 
 網頁網址：https://chenxandy.github.io/audio-guide/
 
+## 目前狀態（2026.11.10）
+
+- 網頁已上線：https://chenxandy.github.io/audio-guide/
+- Lihi 的 18 個短網址都已改指到上表的新目標網址。
+- 原本的目標是 Apple Podcasts 上《凍茶力》的舊版數位導覽單集（網址後面帶 utm_source=teaculturehouse&utm_medium=qrcodescan）。如果要改回去，到 Lihi 把目標換回《凍茶力》對應集數即可。
+
 ## 之後要更新時
 
 - 節目或單集重新上傳、SoundOn 單集網址變了：改 `index.html` 裡的單集代碼。
@@ -53,3 +59,4 @@
 |---|---|---|---|
 | 2026.11.10 | 1 | 初版：建立語言自動切換網頁與 Lihi 對照表 | Claude |
 | 2026.11.10 | 2 | 填入 GitHub Pages 網頁網址 | Claude |
+| 2026.11.10 | 3 | Lihi 18 個短網址改指到語言切換網頁，記錄原本目標 | Claude |
